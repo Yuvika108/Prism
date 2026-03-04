@@ -65,7 +65,7 @@ export default function App() {
     };
 
     return (
-        <div className="relative w-full bg-[#060c0a] text-white overflow-x-hidden selection:bg-[#3effa0]/30 selection:text-white min-h-screen">
+        <div className="relative w-full text-white selection:bg-[#3effa0]/30 selection:text-white min-h-screen">
             <CursorGlow />
             <ImageSequence />
 
@@ -128,9 +128,9 @@ export default function App() {
             </main>
 
             {/* ── Footer ─────────────────────────────────────────────── */}
-            <footer className="border-t border-white/[0.04] bg-[#060c0a] pt-20 pb-10 px-6 md:px-10 relative z-20">
+            <footer className="border-t border-white/5 bg-[#060c0a]/30 backdrop-blur-2xl pt-10 pb-8 px-6 md:px-10 relative z-20">
                 <div className="max-w-6xl mx-auto">
-                    <div className="grid grid-cols-1 md:grid-cols-5 gap-12 pb-16 border-b border-white/[0.04]">
+                    <div className="grid grid-cols-1 md:grid-cols-5 gap-y-10 md:gap-x-12 pb-12 border-b border-white/[0.04]">
                         <div className="md:col-span-2 max-w-xs">
                             <img src="/prism-logo.png" alt="PRISM" className="h-11 w-auto object-contain mb-8 opacity-90" />
                             <p className="text-[12px] text-white/55 leading-relaxed font-light mb-8">
